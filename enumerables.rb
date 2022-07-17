@@ -13,13 +13,19 @@ end
 # with the names of each spicy food
 def get_names(spicy_foods)
   # your code here
+  names = name.each do |name|
+    b[:name]
 end
+puts names
 
 # given an array of spicy foods, **return an array of hashes** 
 # where the heat level of the food is greater than 5
 def spiciest_foods(spicy_foods)
   # your code here
+  spicy_level = spiciest_foods.collect do |b|
+    b[:heat_level] > 5
 end
+puts spicy_level
 
 # given an array of spicy foods, **output to the terminal**
 # each spicy food in the following format: 
@@ -28,6 +34,8 @@ end
 # "hello" * 3 == "hellohellohello"
 def print_spicy_foods(spicy_foods)
   # your code here
+  order = print_spiciest_foods.collect do |b|
+    puts 
 end
 
 # given an array of spicy foods and a string representing a cuisine, **return a single hash**  
@@ -53,5 +61,9 @@ end
 # given an array of spicy foods, return an integer representing 
 # the average heat level of all the spicy foods in the array
 def average_heat_level(spicy_foods)
-  # your code here
-end
+  average = average_heat_level.average do |b|
+    b[:heat_level]
+  end
+  puts mean
+  
+
